@@ -1,0 +1,29 @@
+- How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It found it useful to find if there is any bugs and it can even locate it and point them out.
+
+- How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It will take care of the hassle of rewriting an entire code when you find something wrong or confused in the current code, which I used to do all the time. Also, it allows to write different code implementations of program for the trial but the version control makes it easy to go back to the code prior to the
+trials and even move around those different implementations.
+
+- What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros: it makes the programmer aware of the logical steps to improve upon the task. Trying to commit at the logically sperated point makes the programmer aware of the logical speration of their task.
+cons: it seems to take away some momentum of working through the task. If the version control is done automatically say every hour, then you don't have to worry about it.
+
+- Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+It makes more sense to committ files that are logically related because their functions depend on one another. Also it makes more sense to compare files committed at different times all together.
+
+- How can you use the commands git log and git diff to view the history of files?
+
+git log allows you to view the entire history of files in the repository with comes with a short message to tell you what changes were made when it was committed. Using the message as a hint, you compare files to locate and what changes were specifically made using git diff prior_file post_file.
+
+- How might using version control make you more confident to make changes that could break something?
+
+If it comes easier to locate the change that has introduced the bug using version control, I can make many changes and try many different codes. It should make my programming experience much more smoother.
+
+- Now that you have your workspace set up, what do you want to try using Git for?
+
+I can use Git and Git bash as a command line promt to use for the standard cmd shell in windows default. I cannot only move (mv) files around but also use git as what they do: version-control.
