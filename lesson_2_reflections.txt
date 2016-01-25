@@ -7,3 +7,11 @@ use Git to track files or anything.
 - How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 I don't think the lesson has not talked about the benefit of having a staging area (yet?). As far as I understand, a group of files (logically associated) can be togethter moved to the staging area so that those files can be only committed leaving a logically separated file intact. I am not really observing the true benefit of it.
+
+- How can you use the staging area to make sure you have one commit per logical change?
+
+I think "git committ" command commit every file in the repository. But some of the updates in files may not be sperately logically and you may want them to be committed separately. Placing files in staging area creates a logical commit for set of files.
+
+- What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches wwill be helpful in keeping my history organized when I want to experiment a function or create a different version of the program but wantt to keep the master branch intact for the purpose of showing the codes that are currently presentable to others. Branches help keeping the updates without overriding the current files that cannot be recovered later.
