@@ -3,3 +3,7 @@
 It creates the repository which you can use Git to track files in the directory (folder) but
 files have to be specified to track. If you don't create a repository, then you cannnot really
 use Git to track files or anything.
+
+- How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+I don't think the lesson has not talked about the benefit of having a staging area (yet?). As far as I understand, a group of files (logically associated) can be togethter moved to the staging area so that those files can be only committed leaving a logically separated file intact. I am not really observing the true benefit of it.
