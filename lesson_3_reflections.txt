@@ -2,3 +2,8 @@
 
 By keep the remote repository updated as I commit locally, I can assess to the same project using the different computer by
 copying the latest files in the remote to local every time I work on the different computers. 
+
+- Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+I am not very sure why because it seems like you always want the most updated
+files to work on. I wonder if there is any reasons why you would want to choose to pull a particular branch instead of master. 
