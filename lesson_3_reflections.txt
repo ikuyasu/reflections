@@ -1,2 +1,4 @@
 - When would you want to use a remote repository rather than keeping all your work local?
 
+By keep the remote repository updated as I commit locally, I can assess to the same project using the different computer by
+copying the latest files in the remote to local every time I work on the different computers. 
