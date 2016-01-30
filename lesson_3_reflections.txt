@@ -7,3 +7,7 @@ copying the latest files in the remote to local every time I work on the differe
 
 I am not very sure why because it seems like you always want the most updated
 files to work on. I wonder if there is any reasons why you would want to choose to pull a particular branch instead of master. 
+
+- Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+You fork a repository when you want a copy of project of somebody's repository in your own repository, which then can be shared by others. The repository will be tracked by the repositroy you have forked so that the GitHub user of the original repository get credited every time it gets forked. If you clone a repository, you either create a clone in your own repository or in your local machine literally. Your clone is simply a copy of the cloned repository and removes some functions to associate with the original. A branch is a set of commits that can be tracked by the branch. A repository contains branches, and when you clone or copy the repository you actually do them for a branch. Since you usually want to clone/fork the entire repository which is usually well summerized by the master branch, you will simply clone/copy a master branch. 

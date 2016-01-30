@@ -15,3 +15,16 @@ I think "git committ" command commit every file in the repository. But some of t
 - What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches wwill be helpful in keeping my history organized when I want to experiment a function or create a different version of the program but wantt to keep the master branch intact for the purpose of showing the codes that are currently presentable to others. Branches help keeping the updates without overriding the current files that cannot be recovered later.
+
+- How do the diagrams help you visualize the branch structure?
+
+It helps observe what commit history is tracked back by git log command, and how the detached head commit is not tracked by any of the git log from branches.
+
+- What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+If you merge two branches, the branch becomes one with the head of checked-out branch. The merged branch still
+exist, so you may want to delete it. The log will be in the order of time committed. The digram represents the 
+relationship between a branch and the merged branch and what will happen to the merged branch. It also shows the commits that do not get merged by git merge. 
+
+- What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+For automatic merging, it enables the quick merging of updates made by programmers in a team but the way files are updated should takea a certain format for the quick merge to get executed. For a maual merging, it is good to communicage with other programmers who updated the same file separately to understand what is going on the project, but it takes time and no updates can be made while resovling the conflict. 
